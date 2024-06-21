@@ -1,0 +1,229 @@
+.box {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../Images/background.png');
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+
+}
+
+.holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box2 {
+    display: flex;
+    width: 1100px;
+    height: 500px;
+    background-color: #0E7490;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: 12%;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.SignUp02Image {
+    margin-top: 40px;
+    display: flex;
+    width: 400px;
+    height: 80%;
+    background-image: url('../../Images/SignUpImg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.SignUp02Title {
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: end;
+    margin-bottom: 20px;
+    color: white;
+    margin-top: 30px;
+}
+
+.error {
+    margin-left: 0px;
+    margin-top: -15px;
+    height: 25px;
+}
+
+.SignUp02InputBox {
+    height: 50px;
+    width: 500px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    border-width: 0px;
+    margin-bottom: 20px;
+}
+
+.SignUp02InputBox:hover::placeholder {
+    color: black;
+}
+
+.SignUp02Text1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0px;
+}
+
+.SignUp02Text2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4900C4;
+    text-align: end;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.SignUp02Text2:hover {
+    color: #2a0072;
+}
+
+.SignUp02ButtonBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.SignUp02Button {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border-width: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: darkslategray;
+}
+
+.SignUp02Button:hover {
+    color: black;
+}
+
+.ss {
+    width: 20px;
+}
+
+@media screen and (max-width : 1024px) {
+    .box2 {
+        display: flex;
+        width: 700px;
+        height: 500px;
+        background-color: #0E7490;
+        align-content: center;
+        justify-content: space-evenly;
+        margin-top: 20%;
+        opacity: 0.8;
+        border-radius: 20px;
+    }
+
+    .SignUp02Image {
+        margin-top: 90px;
+        display: flex;
+        width: 300px;
+        height: 60%;
+        background-image: url('../../Images/SignUpImg.png');
+        background-position: center;
+        background-size: cover;
+        margin-left: 15px;
+    }
+
+    .SignUp02Title {
+        font-size: 50px;
+        font-weight: 1000;
+        text-align: end;
+        margin-bottom: 20px;
+        margin-right: 40px;
+    }
+
+    .error {
+        margin-left: 0px;
+        margin-top: -15px;
+        height: 25px;
+    }
+
+    .SignUp02InputBox {
+        height: 50px;
+        width: 300px;
+        padding-left: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 8px;
+        border-width: 0px;
+        margin-bottom: 20px;
+        margin-right: 40px;
+    }
+
+    .SignUp02Button {
+        width: 150px;
+        height: 50px;
+        border-radius: 30px;
+        border-width: 0px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .box2 {
+        display: flex;
+        width: 500px;
+        height: 500px;
+        background-color: #0E7490;
+        align-content: center;
+        justify-content: center;
+        margin-top: 20%;
+        opacity: 0.8;
+        border-radius: 20px;
+    }
+
+    .SignUp02Image {
+        visibility: hidden;
+    }
+
+    .SignUp02Title {
+        font-size: 50px;
+        font-weight: 1000;
+        text-align: end;
+        margin-bottom: 20px;
+        margin-right: 60px;
+        margin-top: 30px;
+    }
+
+    .error {
+        margin-left: 0px;
+        margin-top: -15px;
+        height: 25px;
+    }
+
+    .SignUp02InputBox {
+        height: 50px;
+        width: 350px;
+        padding-left: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 8px;
+        border-width: 0px;
+        margin-bottom: 20px;
+        margin-right: 60px;
+    }
+
+    .SignUp02Button {
+        width: 150px;
+        height: 50px;
+        border-radius: 30px;
+        border-width: 0px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+}

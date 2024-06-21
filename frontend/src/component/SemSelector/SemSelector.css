@@ -1,0 +1,35 @@
+.SemdropSelect {
+    width: 200px;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    border-width: 0px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.SemdropSelect:hover {
+    color: #8D8D8D;
+}
+
+.Semoption1 {
+    color: #8D8D8D;
+}
+
+@media screen and (max-width : 1024px) {
+    .SemdropSelect {
+        width: 150px;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .SemdropSelect {
+        width: 150px;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+}

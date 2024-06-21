@@ -1,0 +1,75 @@
+.menuIcon2 {
+    height: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.menu_keys2 {
+    margin-top: 15px;
+    margin-left: 20px;
+    position: absolute;
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 10px 10px;
+    width: 390px;
+}
+
+.menu_keys2.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: 500ms ease;
+}
+
+.menu_keys2.inactive {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: 500ms ease;
+}
+
+.menu_keys2 ul li {
+    padding: 6px 0;
+}
+
+.menu_keys2 ul li:hover a {
+    color: black;
+    cursor: pointer;
+}
+
+.dropDownItem2 {
+    display: flex;
+    margin: 4px auto;
+}
+
+.dropDownItem2 a {
+    margin-left: 10px;
+    transition: 500ms;
+    font-family: "Lato";
+    font-weight: bolder;
+    font-size: 30px;
+    color: darkslategray;
+}
+
+@media screen and (max-width : 768px) {
+    .menu_keys2 {
+        margin-top: 15px;
+        margin-left: 20px;
+        position: absolute;
+        background-color: white;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        padding: 5px 5px;
+        width: 250px;
+    }
+
+    .dropDownItem2 a {
+        margin-left: 10px;
+        transition: 500ms;
+        font-family: "Lato";
+        font-weight: bolder;
+        font-size: 25px;
+        color: darkslategray;
+    }
+}

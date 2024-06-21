@@ -1,0 +1,70 @@
+.m1Q {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m2Q {
+    width: 740px;
+    display: flex;
+    flex-direction: column;
+}
+
+.m3Q {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    align-self: flex-end;
+    cursor: pointer;
+    border-width: 0px;
+}
+
+.m4Q {
+    background-color: #3d75be;
+    padding: 0.5rem;
+    opacity: 0.8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    width: 730px;
+}
+
+.labelQ {
+    margin-left: 50px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #012630;
+}
+
+.inputBoxQ {
+    height: 30px;
+    width: 600px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    border-width: 0px;
+    margin-left: 50px;
+}
+
+.saveBtnQ {
+    margin-top: 20px;
+    margin-left: 590px;
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #012630;
+    border-radius: 15px;
+    border-width: 0px;
+    cursor: pointer;
+}

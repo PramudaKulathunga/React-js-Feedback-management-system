@@ -1,0 +1,101 @@
+.box_MA {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../Images/background.png');
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+}
+
+.holderMA {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.textNameMA {
+    font-size: 20px;
+    color: white;
+    margin-left: -670px;
+    margin-bottom: -30px;
+}
+
+.titleMA {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.holder_MA2 {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    background-color: #0E7490;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.tableMA {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.thMA {
+    border: solid;
+    border-width: 1px;
+    padding: 5px;
+    border-color: white;
+    color: white;
+    width: 120px;
+}
+
+.actionBtn {
+    border-width: 0px;
+    border-radius: 5px;
+    height: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(5, 184, 5);
+    margin-left: 5px;
+}
+
+.addBtn {
+    margin-top: 25px;
+    height: 30px;
+    width: 120px;
+    border-width: 0px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+@media screen and (max-width : 1024px) {
+
+    .textNameMA {
+        margin-left: -470px;
+    }
+
+    .holder_MA2 {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+
+    .textNameMA {
+        margin-left: -370px;
+    }
+
+    .holder_MA2 {
+        width: 600px;
+    }
+}

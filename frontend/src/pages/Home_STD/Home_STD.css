@@ -1,0 +1,222 @@
+.box_STD {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../Images/background.png');
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+}
+
+.holder2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.textName {
+    font-size: 20px;
+    color: white;
+    margin-left: -480px;
+}
+
+.holder_STD {
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    height: 350px;
+    background-color: #0E7490;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.text2bold {
+    margin-left: 50px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: -5px;
+    font-weight: bold;
+}
+
+.text2 {
+    margin-left: 50px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: -5px;
+    font-weight: 400;
+}
+
+.EditButton {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border-width: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: darkslategray;
+    margin-top: 20px;
+    margin-left: 70%;
+}
+
+.EditButton:hover {
+    color: black;
+}
+
+.holder_STD2 {
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    background-color: #0E7490;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.table {
+    color: white;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+
+.table2 {
+    color: white;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.horizontal-line {
+    border-top: 2px solid white;
+    width: 450px;
+    margin-bottom: 10px;
+}
+
+.btnBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-left: 60px;
+}
+
+.feedbackBtn {
+    border-radius: 3px;
+    border-width: 0px;
+    font-weight: 600;
+    color: rgb(40, 39, 39);
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 45px;
+    height: 20px;
+}
+
+.tableSTD {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.thSTD {
+    border: solid;
+    border-width: 1px;
+    padding: 5px;
+    border-color: white;
+    width: 120px;
+    color: white;
+}
+
+@media screen and (max-width : 1024px) {
+
+    .textName {
+        margin-left: -320px;
+    }
+
+    .holder_STD {
+        width: 700px;
+        height: 330px;
+    }
+
+    .EditButton {
+        margin-left: 65%;
+    }
+
+    .text2bold {
+        font-size: 18px;
+    }
+
+    .text2 {
+        font-size: 18px;
+    }
+
+    .holder_STD2 {
+        width: 700px;
+    }
+
+    .table {
+        margin-left: 0px;
+    }
+
+    .horizontal-line {
+        width: 400px;
+    }
+
+    .btnBox {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+
+    .textName {
+        margin-left: -120px;
+    }
+
+    .holder_STD {
+        width: 500px;
+        height: 350px;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .EditButton {
+        margin-left: 55%;
+        margin-top: 35px;
+    }
+
+    .text2bold {
+        font-size: 16px;
+    }
+
+    .text2 {
+        font-size: 16px;
+    }
+
+    .holder_STD2 {
+        width: 600px;
+    }
+
+    .table {
+        font-size: 16px;
+        margin-left: 30px;
+    }
+
+    .table2 {
+        font-size: 16px;
+        margin-left: 30px;
+    }
+
+    .horizontal-line {
+        width: 350px;
+        margin-left: 30px;
+    }
+
+    .feedbackBtn {
+        margin-right: 10px;
+        margin-bottom: 44px;
+    }
+}

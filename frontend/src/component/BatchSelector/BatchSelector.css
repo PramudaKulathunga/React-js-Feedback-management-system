@@ -1,0 +1,34 @@
+.BatchdropSelect {
+    width: 250px;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.BatchdropSelect:hover{
+    color: #8D8D8D;
+}
+
+.Batchoption1 {
+    color: #8D8D8D;
+}
+
+@media screen and (max-width : 1024px) {
+    .BatchdropSelect {
+        width: 200px;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .BatchdropSelect {
+        width: 200px;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+}

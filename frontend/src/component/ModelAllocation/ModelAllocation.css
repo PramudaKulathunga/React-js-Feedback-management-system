@@ -1,0 +1,69 @@
+.m1Al {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.m2Al{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.m3Al{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    align-self: flex-end;
+    cursor: pointer;
+    border-width: 0px;
+}
+
+.m4Al{
+    background-color: #3d75be;
+    padding: 0.5rem;
+    opacity: 0.8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.labelAl{
+    margin-left: 50px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #012630;
+}
+.inputBoxAl {
+    height: 20px;
+    width: 350px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    border-width: 0px;
+    margin-left: 50px;
+}
+
+.saveBtnAl{
+    margin-top: 20px;
+    margin-left: 340px;
+    width: 80px;
+    height: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #012630;
+    border-radius: 15px;
+    border-width: 0px;
+    cursor: pointer;
+}
